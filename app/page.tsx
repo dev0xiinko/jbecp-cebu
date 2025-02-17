@@ -4,7 +4,7 @@ import LogoMarquee from "@/components/Logo-marquee"
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-[#fdd10a]">
       <section className="relative h-screen flex items-center justify-center">
         <Image
           src="/jbecp.png"

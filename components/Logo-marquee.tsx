@@ -15,7 +15,7 @@ const LogoMarquee = () => {
       <div className="flex animate-marquee">
         {logos.concat(logos).map((logo, index) => (
           <div key={index} className="flex-shrink-0 w-48 mx-8">
-            <Image src={logo.src || "/placeholder.svg"} alt={logo.alt} width={100} height={50} />
+            <Image src={logo.src || "/bybit.png"} alt={logo.alt} width={100} height={50} />
           </div>
         ))}
       </div>
