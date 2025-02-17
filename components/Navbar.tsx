@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center h-16">
           
           {/* Mobile View: JBECP text */}
-          <div className="md:hidden text-white text-xl font-bold">
+          <div className="md:hidden text-blue-500 text-xl font-bold">
             JBECP
           </div>
 

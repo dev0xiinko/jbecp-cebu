@@ -14,6 +14,8 @@ export default function Home() {
           quality={100}
           priority
         />
+
+
         {/*<div className="relative z-10 text-center text-white mt-16">
           <h1 className="text-5xl font-bold mb-4">Welcome to Our Site</h1>
           <p className="text-xl mb-8">Discover amazing things with us</p>
@@ -29,7 +31,7 @@ export default function Home() {
       <section>
           <LogoMarquee />
       </section>
-      <section className="relative h-screen flex items-center justify-center">
+      <section className="relative h-screen flex flex-col items-center justify-center">
         <Image
           src="/TRADE_bg(1).png"
           alt="Hero Background"
@@ -38,7 +40,7 @@ export default function Home() {
           quality={100}
           priority
         />
-        {<div className="relative z-10 text-center text-white mt-16">
+        {<div className="relative z-10 text-center text-white mt-32">
           <h1 className="text-5xl font-bold mb-4">A student-led organization.</h1>
           <p className="text-xl mb-8">Discover amazing things with us</p>
           <Link
@@ -48,8 +50,18 @@ export default function Home() {
             Join Us
           </Link>
         </div>}
-        <h2 className="z-10">
-        </h2>
+        <div>
+        <div className="relative z-10 text-center text-white mt-16">
+    <Image
+          src="/bgjbecp.jpg"
+          alt="Hero Background"
+          quality={100}
+          width={500}
+          height={100}
+        />
+        
+    </div>
+        </div>
       </section>
       {/*<section
         className="relative h-screen flex items-center justify-center bg-fixed bg-cover bg-center"
